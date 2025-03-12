@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 2px solid #ff4500;
+    border-bottom: 2px solid;
 }
 
 nav ul {
@@ -73,13 +73,13 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    border: 2px solid #ff4500;
+    border: 2px solid;
 }
 
 .services {
     margin: 50px auto;
     width: 80%;
-    border: 2px solid #ff4500;
+    border: 2px ;
     padding: 20px;
     display: flex;
     justify-content: center;
