@@ -1,0 +1,105 @@
+body {
+    background-color: #0b0d1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ff4500;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.highlight {
+    color: #0080ff;
+    font-weight: bold;
+}
+
+.tech {
+    color: #0033cc;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #0080ff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 2px solid #ff4500;
+}
+
+.services {
+    margin: 50px auto;
+    width: 80%;
+    border: 2px solid #ff4500;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
