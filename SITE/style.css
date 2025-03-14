@@ -1,0 +1,94 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        
+         body {
+            background-color: rgb(18, 17, 31, 100);
+            color: rgb(238, 237, 232, 100);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+         nav {
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-left: 0px;
+            font-family: 'inter';
+            font-weight: bold;
+        }
+         nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+         nav ul li {
+            display: inline;
+            
+        }
+        
+         nav ul li a {
+            text-decoration: none;
+            color: rgb(238, 237, 232, 100);
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: transparent;
+            color: rgb(187, 186, 183, 100);
+            transition-duration: 0.3s;
+        }
+
+        .icons i {
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 100px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .blue {
+            color: rgb(52, 131, 234, 100);
+        }
+        .dark-blue {
+            color: rgb(52, 55, 234, 100);
+            margin-left: 28px; 
+        }
+
+        #imagem-bonecos {
+            display: ;
+            padding-top: 90px;
+            padding-left: 80px;
+            box-sizing: border-box;
+            width: 700px;
+            height: 600px;
+            margin-left: 500px;
+            transform: translateY(-300px);
+        }
+
+        button {
+            background-color: rgb(32, 36, 109, 100);
+            color: rgb(238, 237, 232, 100);
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 60px;
+            margin-top: 10px;
+            margin-left: 60px;
+            font-family: 'inter';
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: rgb(52, 55, 234, 100);
+            tranform: scale(1.1);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.8s;
+        }
+    
